@@ -15,6 +15,69 @@
 			{
 				"inputs": [
 					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "favoriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "nameTofavoriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "_simpleStorageIndex",
 						"type": "uint256"
@@ -34,6 +97,25 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "sfGet",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
@@ -47,6 +129,19 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -81,10 +176,10 @@
 			]
 		},
 		"tests/StorageFactory.sol": {
-			"keccak256": "0xbe2426bf53364599d35cd9b1ce9b91950a704f5bdec368c26201cb7e24e8b007",
+			"keccak256": "0xd64790fb871aabe125f48233aea47ef96409a7cc93f554470614b8b11e86d112",
 			"urls": [
-				"bzz-raw://24500362dabbb82fe87906d9db1ea771e5c3cf602fc85864390b9f11b58a6101",
-				"dweb:/ipfs/QmbCq9S2sD7EGSxBNT1AeJXiZdU4vQpMkdqTmfc487qxfq"
+				"bzz-raw://64e7092ea758560ba9b76b2e607fccbde2a769379c26ba8befefcb22d20bd5e0",
+				"dweb:/ipfs/QmTwvWWFbC2RFa5r74yQd2fVJrHujV2bVU89DuUwovYtog"
 			]
 		}
 	},
